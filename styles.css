@@ -1,16 +1,19 @@
 body{
     display: flex;
+    margin: 0;
 }       
 .sidebar{
     background-color: hotpink;
     width: 25%;
 }
+.mainbar{
+    width: 100%;
+}
 .header{
     display: grid;
     border: 2px solid;
     grid-template-rows: 150px 150px;
-    grid-template-columns: 300px 300px;
-     
+    grid-template-columns: 60% 40%;
 }
 .header>div{
     border: 2px solid;
@@ -20,11 +23,28 @@ body{
     border: 2px solid;
 }
 .projects{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 70%;
     border: 2px solid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 300px 300px;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center; */
+    justify-content: space-around;
 }
 .projects>p{
     border: 2px solid;
+    width: 45%;
+    height: 230px;
+}
+.miniMain{
+    width: 30%;
+    border: 2px solid;
+}
+#announce,#trend{
+    width: 90%;
+    height: 300px;
+    background-color: hotpink;  
 }
