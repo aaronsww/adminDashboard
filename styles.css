@@ -1,10 +1,18 @@
 body{
     display: flex;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }       
 .sidebar{
-    background-color: hotpink;
+    background-color:indianred;
     width: 25%;
+}
+.sidebar>p{
+    font-size: 20px;
+    font-weight: 700;    
+}
+#dashboard{
+     display: flex;
 }
 .mainbar{
     width: 100%;
@@ -17,6 +25,13 @@ body{
 }
 .header>div{
     border: 2px solid;
+}
+.header>input{
+    width: 700px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 .mainContent{
     display: flex;
