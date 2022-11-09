@@ -7,12 +7,17 @@ body{
     background-color:indianred;
     width: 25%;
 }
-.sidebar>p{
+.sidebar>div>p{
     font-size: 20px;
     font-weight: 700;    
+    color: white;
 }
-#dashboard{
+.sidebar>div>img{
+    max-height: 30px;
+}
+.sidebar>div{
      display: flex;
+     align-items: center;
 }
 .mainbar{
     width: 100%;
