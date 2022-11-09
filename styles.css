@@ -20,7 +20,7 @@ body{
 .header{
     display: grid;
     border: 2px solid;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 120px 120px;
     grid-template-columns: 60% 40%;
 }
 .header>div{
@@ -28,10 +28,33 @@ body{
 }
 .header>input{
     width: 700px;
-    height: 30px;
+    height: 35px;
     border-radius: 25px;
     margin-top: 30px;
     margin-left: 50px;
+}
+#user{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+#intro{
+    margin-top: -30px;
+}
+#topButton>button{
+    padding-left: 30px ;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .mainContent{
     display: flex;
@@ -40,7 +63,7 @@ body{
 .projects{
     display: flex;
     flex-wrap: wrap ;
-    width: 70%;
+    width: 75%;
     border: 2px solid;
     /* display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -49,17 +72,26 @@ body{
     justify-items: center; */
     justify-content: space-around;
 }
-.projects>p{
+.projects>div{
     border: 2px solid;
     width: 45%;
     height: 230px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 10px solid #6d597a;
+}
+.projects>div>h3{
+    margin-bottom: -13px ;
 }
 .miniMain{
-    width: 30%;
+    width: 25%;
     border: 2px solid;
+    margin-top: -40px;
+    padding-left: 15px;
 }
 #announce,#trend{
     width: 90%;
     height: 300px;
-    background-color: hotpink;  
+    background-color:indianred ;  
+    border-radius: 10px;
 }
