@@ -5,7 +5,7 @@ body{
 }       
 .sidebar{
     background-color:indianred;
-    width: 25%;
+    width: 20%;
 }
 .sidebar>div>p{
     font-size: 20px;
@@ -14,13 +14,14 @@ body{
 }
 .sidebar>div>img{
     max-height: 30px;
+    margin: 15px;
 }
 .sidebar>div{
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
 }
 .mainbar{
-    width: 100%;
+    width: 80%;
 }
 .header{
     display: grid;
@@ -41,6 +42,7 @@ body{
     height: 35px;
     border-radius: 25px;
     margin-left: 10px;
+    padding-left: 15px;
 }
 #user{
     display: flex;
@@ -48,15 +50,19 @@ body{
     padding: 20px;
     font-size: 20px;
     font-weight: 700;
-    margin-right: 40px;
     align-items: center;
+    padding-right: 35px;
 }
-#user>img{
-    max-height: 25px;
-    padding-right: 20px;
+#me{
+    max-height: 100px ;
 }
 #intro{
     margin-top: -30px;
+}
+#topButton{
+    display: flex;
+    padding: 15px;
+    padding-left: 40px;
 }
 #topButton>button{
     padding-left: 30px ;
@@ -93,9 +99,18 @@ body{
     margin: 10px;
     border-radius: 10px;
     border-left: 10px solid #6d597a;
+    padding-left: 10px;
 }
 .projects>div>h3{
     margin-bottom: -13px ;
+}
+#templateImages{
+    display: flex;
+    justify-content: flex-end;
+}
+#templateImages>img{
+    max-height: 25px;
+    margin: 20px;
 }
 .miniMain{
     width: 25%;
