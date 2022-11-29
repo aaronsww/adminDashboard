@@ -54,10 +54,17 @@ body{
     padding-right: 35px;
 }
 #me{
-    max-height: 100px ;
+    height: 40px;
+    padding-right: 20px;
 }
 #intro{
     margin-top: -30px;
+    display: flex;
+   padding: 30px;
+}
+#intro>img{
+    height: 80px;
+    padding-right: 15px;
 }
 #topButton{
     display: flex;
@@ -140,6 +147,19 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+}
+#trend>div{
+    padding: 5px;
+}
+#trend>div>div{
+   margin-top: -10px;
+}
+#trend>div>img{
+    height: 45px;
+    padding-right: 10px;
+}
+#trend>div>div>div{
+    color: darkgrey;
 }
 #theirAt{
      font-size: 14px;
