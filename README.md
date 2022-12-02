@@ -15,8 +15,8 @@ This project demonstrates the use of CSS Grid and it's capabilities. I used the 
 ## Credits
 
 All icons used were from the following sources:
-<ul>
-    <li><a href="https://materialdesignicons.com/"></li>
-    <li><a href="https://www.reshot.com/"></li>
-</ul>
 
+<ul>
+    <li><a href="https://materialdesignicons.com/">materialdesignicons.com</li>
+    <li><a href="https://www.reshot.com/">www.reshot.com</li>
+</ul>
