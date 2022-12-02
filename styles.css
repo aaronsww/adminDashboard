@@ -5,6 +5,7 @@ body{
 }       
 .sidebar{
     background-color:#1c2541;
+    background-image: url('images/nightSky.jpg');
     width: 20%;
     padding-left: 20px;
 }
