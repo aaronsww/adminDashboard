@@ -26,8 +26,9 @@ body{
     width: 80%;
 }
 .header{
+    border: 2px solid red;
     display: grid;
-    grid-template-rows: 120px 120px;
+    grid-template-rows: 120px 100px;
     grid-template-columns: 60% 40%;
     height: 28vh;
     background-color: white;
@@ -35,6 +36,7 @@ body{
     position: sticky;
 }  
 #searchBar{
+    border: 2px solid yellow;
     display: flex; 
     padding-left: 50px;
     padding-top: 30px;
@@ -43,25 +45,29 @@ body{
     width: 700px;
     height: 35px;
     border-radius: 25px;
-    margin-left: 10px;
-    padding-left: 15px;
     background-color: #e5e5e5;
     border: none;
+    margin: 0 auto;
 }
 #user{
+    border: 2px solid blue;
     display: flex;
     justify-content: end;
-    padding: 20px;
     font-size: 20px;
     font-weight: 700;
     align-items: center;
-    padding-right: 35px;
+    padding-right: 10%;
 }
-#me{
+#bellImg{
+   max-height: 25px;
+    padding-right: 5%;
+}
+#meImg{
     height: 40px;
-    padding-right: 20px;
+    padding-right: 5%;
 }
 #intro{
+    border: 2px solid violet;
     margin-top: -40px;
     display: flex;
     padding: 30px;
@@ -71,16 +77,17 @@ body{
     padding-right: 10px;
 }
 #topButton{
+    border: 2px solid violet;
     display: flex;
-    padding: 18px;  
-    padding-left: 40px;
-    margin-top: -40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
 }
 #topButton>button{
-     margin: 40px 20px 40px 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 25px;
+    height: 2.5rem;
+    width: 6.5rem;
+    border-radius: 50px;
     font-size: 16px;
     font-weight: 700;
     border: none;
@@ -88,6 +95,7 @@ body{
     background-color: #1c2541;
     color: #eff7f6;
     cursor: pointer;
+    margin-left: 3%;
 }
 .mainContent{
     display: flex;
