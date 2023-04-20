@@ -1,4 +1,4 @@
-# adminDashboard
+# Admin Dashboard
 
 <a href="https://aaronsww.github.io/adminDashboard">Live Demonstration.</a>
 
@@ -10,7 +10,8 @@ This project demonstrates the use of CSS Grid and it's capabilities. I used the 
 
 ### In Action
 
-<img src="images/ .png" alt="">
+<img src="images\Document - Brave 20-04-2023 10_06_28.png" alt="">
+<img src="images\Document - Brave 20-04-2023 10_08_11.png" alt="">
 
 ## Credits
 
